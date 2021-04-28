@@ -1,0 +1,19 @@
+
+git diff HEAD HEAD^   -- this is comparison between last commit and last but one commit
+
+git log -- oneline  -- this gives the logs of the present branch in one line with commit id and log message
+
+git log -- since="3 days ago" -- shows logs of last three days
+
+git restore filename --  this restore files which are reverted from staging area
+
+git branch -a  -- list all the existing branches
+
+git branch "branchname" -- creates new branch
+
+git checkout branchname -- switches to the following branch names .
+
+git branch -m branchname newbrachname -- changes one branchname to other brachname
+
+git branch -d branchname -- this will delete branch but can be done only whn your are on other branchs
+
